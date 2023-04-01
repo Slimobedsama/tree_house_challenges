@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+}
+div.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.content {
+    height: 500px;
+    width: 50%;
+    border: 2px solid #333;
+    margin-top: 20px;
+}
+.box {
+    height: 25%;
+}
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+div .box-1 input {
+    /* width: 25%; */
+    background-color: #00ffdd;
+}
+div label {
+    font-size: 17px;
+    /* font-weight: 600; */
+
+}
+div .box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div .output-1 {
+    margin-right: 10px;
+}
+div .box-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-2, .box-3, .info-msg {
+    font-size: 1.01em;
+    /* font-weight: 600; */
+    color: whitesmoke;
+}
+div .box-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#submit, #reset, #restart {
+    margin: 10px;
+    background-color: #474444;
+    color: #ece4e4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+#figure:disabled {
+     background-color: #ff0022;
+}
