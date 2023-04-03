@@ -69,3 +69,22 @@ div .box-4 {
 #figure:disabled {
      background-color: #ff0022;
 }
+/* MEDIA QUERRY */
+@media (max-width: 480px) and (min-width: 320px) {
+    div.content {
+        width: 100%;
+        height: 350px;
+    }
+    .box {
+        height: 30%;
+    }
+    div.box-3 {
+        margin-top: -20px;
+    }
+    #submit, #reset, #restart {
+        margin: 0 5px 75px 5px;
+        padding: 5px 10px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
